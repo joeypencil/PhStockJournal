@@ -11,6 +11,7 @@ void main() {
         body: Row(
           mainAxisSize: MainAxisSize.min,
           children: [
+            const SizedBox(width: 50),
             Image.asset(
               stockIcon,
               width: 50

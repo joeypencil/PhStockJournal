@@ -11,6 +11,7 @@ class CustomTextStyle extends StatelessWidget {
       text,
       style: const TextStyle(
         color: Color.fromARGB(255, 4, 231, 16),
+        fontFamily: 'ZillaSlab',
         fontSize: 32
       ),
     );
