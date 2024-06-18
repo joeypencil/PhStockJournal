@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:ph_stock_journal/custom_text_style.dart';
+import 'package:ph_stock_journal/box_decorations.dart';
+
 
 const String stockIcon = 'assets/images/stocks_icon.png';
+
 
 void main() {
   runApp(
@@ -10,25 +13,13 @@ void main() {
         backgroundColor: Colors.black,
         body: Container(
           alignment: Alignment.center,
-          decoration: BoxDecoration(
-            border: Border.all(
-              width: 4,
-              color: Colors.orange
-            ),
-            borderRadius: BorderRadius.circular(15),
-          ),
+          decoration: entireScreenBorder,
           child: Column(
             mainAxisSize: MainAxisSize.max,
             children: [
               Container(
                 alignment: Alignment.center,
-                decoration: BoxDecoration(
-                  border: Border.all(
-                    width: 2,
-                    color: Colors.green
-                  ),
-                  borderRadius: BorderRadius.circular(15)
-                ),
+                decoration: elementBorder,
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   mainAxisSize: MainAxisSize.max,
